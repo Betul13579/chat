@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0b5a73, #2ad8ff);
+}
+
+.container {
+    width: 400px;
+    height: 80vh;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

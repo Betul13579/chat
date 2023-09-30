@@ -65,7 +65,8 @@ body{
 ul.messages{
     list-style: none;
     flex-grow: 1;
-    background: #ece5dd;
+    background-color: #ece5dd;
+    background: url(./img/i\ \(7\).png);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

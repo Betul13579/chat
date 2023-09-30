@@ -11,7 +11,13 @@
 
 <body>
     <div class="container">
-        <h2>CHAT</h2>
+        <div class="login">
+            <span>Sohbete baglanmak icin isminizi giriniz</span>
+            <input type="text" id="myName" placeholder="Isim Giriniz" autocomplete="off">
+            <button onclick="sohbeteBasla();"><i class="fa fa-comment"></i>Sohbete basla</button>
+        </div>
+
+        <h2>Sohbet</h2>
         
         <ul class="messages">
             <li class="message">
@@ -95,9 +101,11 @@
 
         <div class="input">
             <input type="text" id="MyInput">
-            <button><i class="fa-solid fa-paper-plane"></i></button>
+            <button onclick="mesajGonder();"><i class="fa-solid fa-paper-plane"></i></button>
         </div>
     </div>
+
+    <script src="./aap.js"></script>
 </body>
 
 </html>

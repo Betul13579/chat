@@ -123,6 +123,10 @@ ul.messages li.message span.date{
     padding: 1rem;
 }
 
+.container .login.hidden{
+    display: none;
+}
+
 .container .login span{
     font-size: 1.2rem;
 }
